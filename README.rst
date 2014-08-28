@@ -1,4 +1,4 @@
-Git Internals
-=============
+Project Description
+===================
 
-This project is being used in an analysis of how Git manages a repository.
+This file contains an introductory description of this project.
