@@ -1,0 +1,18 @@
+# Python
+*.py[cdo]
+_venv
+
+# Vim
+*.swp
+*~
+
+# Mac
+.DS_Store
+
+# C/C++
+*.o 
+*.a
+
+# Sphinx
+_build
+
