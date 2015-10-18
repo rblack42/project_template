@@ -1,0 +1,17 @@
+language: cpp
+sudo: false
+addons:
+    apt:
+        packages:
+        - enchant
+
+compiler:
+    - clang
+    - g++
+
+install:
+    - 'pip install pyenchant'
+
+script:
+    - make docs
+
