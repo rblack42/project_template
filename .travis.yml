@@ -1,17 +1,15 @@
-language: cpp
+language: python
+
 sudo: false
 addons:
     apt:
         packages:
-        - python
+        - build-essential
         - enchant
 
-compiler:
-    - clang
-    - g++
-
-install:
-    - 'pip install pyenchant'
+python:
+    - "2.7"
+    - "3.4"
 
 script:
     - make docs
